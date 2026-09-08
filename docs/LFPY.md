@@ -31,7 +31,7 @@ run_lfpy_demo("runs/lfpy-001", dt_ms=0.0625, sigma=0.3)
 
 ## 验证状态
 
-本地 Windows 仅验证包结构、参数拒绝和缺依赖提示；LFPy 模拟测试在未安装依赖时明确跳过。Linux CI 专门安装后端、先检查 import，再运行数值检查和重放；具体是否通过以验证记录和 GitHub Actions 为准。
+本地 Windows 仅验证包结构、参数拒绝和缺依赖提示；LFPy 模拟测试在未安装依赖时明确跳过。2026-09-09 的 [Linux CI](https://github.com/dusenpi2zz/nnnnneu/actions/runs/34248514292) 已实际安装后端并完成仿真、数值检查和重放，2 个测试通过、无跳过。验证参数与边界见 [验证记录](VALIDATION.md)。
 
 后续真实研究需追加：形态与机制来源、采样和空间离散收敛、电极几何/电导率敏感性、介质边界，以及与真实数据对照的可辨识性分析。原始 LFP/EEG 记录的清洗与统计分析是另一个流程。
 
