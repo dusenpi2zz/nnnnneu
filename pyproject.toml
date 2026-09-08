@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro-methods-workbench"
+version = "0.2.0"
+description = "Research methods catalog and reproducible neuroscience workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8,<4"]
+dev = ["pytest>=7.4,<9"]
+lfpy = ["LFPy==2.3.7", "neuron==9.0.2"]
+
+[project.scripts]
+neuro-methods = "neuro_methods.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+neuro_methods = ["data/*.json", "data/cards/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
