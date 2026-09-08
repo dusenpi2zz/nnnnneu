@@ -1,0 +1,633 @@
+[
+  {
+    "id": "mosaic-roi",
+    "name": "ROI analysis / MOSAIC ImageJ",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "unresolved",
+    "summary": "图中首行只给出通用名称和 MOSAIC 下载入口，无法可靠确定具体插件。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "http://mosaic.mpi-cbg.de/?q=downloads/imageJ",
+        "checked_on": "2026-09-08",
+        "level": "unresolved"
+      }
+    ],
+    "card": "mosaic-roi.md"
+  },
+  {
+    "id": "cellsort",
+    "name": "CellSort / PCA-ICA",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "使用 PCA 与 ICA 从成像序列中分离细胞信号。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/mukamel-lab/CellSort",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "cellsort.md"
+  },
+  {
+    "id": "sima",
+    "name": "SIMA",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "荧光时间序列的运动校正、ROI 分割与信号提取；包含 ROI Buddy。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/losonczylab/sima",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "sima.md"
+  },
+  {
+    "id": "samuroi",
+    "name": "SamuROI",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "基于 Python 的用户定义 ROI 成像分析环境。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/samuroi/SamuROI",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "samuroi.md"
+  },
+  {
+    "id": "caiman-matlab",
+    "name": "CaImAn-MATLAB / CNMF",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "explicitly_unmaintained",
+    "summary": "MATLAB CNMF 工具箱；图中 CaImAn/CNMF 实際指向此实现。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/flatironinstitute/CaImAn-MATLAB",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "caiman-matlab.md"
+  },
+  {
+    "id": "cnmfe-matlab",
+    "name": "CNMF-E (MATLAB)",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "针对单光子微型内窥镜数据扩展 CNMF，处理显著背景。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/zhoupc/CNMF_E",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "cnmfe-matlab.md"
+  },
+  {
+    "id": "miniscope-analysis",
+    "name": "MiniscopeAnalysis",
+    "domain": "calcium",
+    "kind": "pipeline",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "explicitly_unmaintained",
+    "summary": "整合 NoRMCorre 和 CNMF-E 的 miniscope 分析流程。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "pipeline"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/etterguillaume/MiniscopeAnalysis",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "miniscope-analysis.md"
+  },
+  {
+    "id": "min1pipe",
+    "name": "MIN1PIPE",
+    "domain": "calcium",
+    "kind": "pipeline",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "MATLAB 单光子流程：图像增强、运动校正和信号提取。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "pipeline"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/JinghaoLu/MIN1PIPE",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "min1pipe.md"
+  },
+  {
+    "id": "suite2p",
+    "name": "Suite2p",
+    "domain": "calcium",
+    "kind": "pipeline",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "提供钙成像配准、ROI 检测、信号提取、分类和反卷积。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "pipeline"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MouseLand/suite2p",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "suite2p.md"
+  },
+  {
+    "id": "ezcalcium",
+    "name": "EZcalcium",
+    "domain": "calcium",
+    "kind": "gui",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "MATLAB 图形界面，包含运动校正、ROI 检测、精修和跨时段匹配。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "gui"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/porteralab/EZcalcium",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "ezcalcium.md"
+  },
+  {
+    "id": "tenaspis",
+    "name": "TENASPIS",
+    "domain": "calcium",
+    "kind": "pipeline",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "MATLAB 成像信号分析流程，输入要求中包含已校正的视频及指定 H5 格式。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "pipeline"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/SharpWave/TENASPIS",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "tenaspis.md"
+  },
+  {
+    "id": "cellreg",
+    "name": "CellReg (Ziv lab)",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "通过概率模型跨 session 匹配同一细胞。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/zivlab/CellReg",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "cellreg.md"
+  },
+  {
+    "id": "cellreg-jinghao",
+    "name": "CellReg (JinghaoLu 链接)",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "fork_verified_support_not_assessed",
+    "summary": "GitHub 官方元数据确认是 zivlab/CellReg 的 fork；具体代码差异尚未审计。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/JinghaoLu/CellReg",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "cellreg-jinghao.md"
+  },
+  {
+    "id": "caiman-python",
+    "name": "CaImAn (Python)",
+    "domain": "calcium",
+    "kind": "pipeline",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "支持运动校正、CNMF/CNMF-E、活动推断及跨 session 配准的 Python 工具箱。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "pipeline"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/flatironinstitute/CaImAn",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "caiman-python.md"
+  },
+  {
+    "id": "normcorre",
+    "name": "NoRMCorre",
+    "domain": "calcium",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "钙成像视频的分块刚性/非刚性运动校正。",
+    "tags": [
+      "calcium",
+      "钙成像",
+      "tool"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/flatironinstitute/NoRMCorre",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "normcorre.md"
+  },
+  {
+    "id": "roi-dff",
+    "name": "固定 ROI 荧光提取与 ΔF/F",
+    "domain": "calcium",
+    "kind": "method",
+    "implementation": "implemented",
+    "validation": "synthetic_verified",
+    "upstream_status": "not_applicable",
+    "summary": "校正后视频 + 非重叠二值 ROI → 平均荧光和全局百分位基线 ΔF/F。",
+    "tags": [
+      "calcium",
+      "固定 ROI 荧光提取与 ΔF/F"
+    ],
+    "sources": [],
+    "card": "roi-dff.md"
+  },
+  {
+    "id": "suite2p-dff",
+    "name": "Suite2p 数值结果导入与 ΔF/F",
+    "domain": "calcium",
+    "kind": "method",
+    "implementation": "implemented",
+    "validation": "fixture_verified",
+    "upstream_status": "not_applicable",
+    "summary": "导入 F、Fneu、iscell，保留原 ROI 编号，显式神经毡校正后计算本库定义的 ΔF/F。",
+    "tags": [
+      "calcium",
+      "Suite2p 数值结果导入与 ΔF/F"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MouseLand/suite2p",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      }
+    ],
+    "card": "suite2p-dff.md"
+  },
+  {
+    "id": "pearson",
+    "name": "描述性 Pearson 相关矩阵",
+    "domain": "networks",
+    "kind": "method",
+    "implementation": "implemented",
+    "validation": "analytic_verified",
+    "upstream_status": "not_applicable",
+    "summary": "明确 roi × time 的输入，产生描述性相关矩阵并拒绝常数序列。",
+    "tags": [
+      "networks",
+      "描述性 Pearson 相关矩阵"
+    ],
+    "sources": [
+      {
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html",
+        "checked_on": "2026-09-08",
+        "level": "official_documentation"
+      }
+    ],
+    "card": "pearson.md"
+  },
+  {
+    "id": "fmri-qc",
+    "name": "fMRI 前处理与质控",
+    "domain": "fmri",
+    "kind": "method",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_applicable",
+    "summary": "从 BIDS 输入到可审查的前处理与区域时间序列。",
+    "tags": [
+      "fmri",
+      "fMRI 前处理与质控"
+    ],
+    "sources": [
+      {
+        "url": "https://fmriprep.org/en/stable/",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://bids-specification.readthedocs.io/en/stable/",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "fmri-qc.md"
+  },
+  {
+    "id": "timeseries-features",
+    "name": "时间序列特征与预测验证",
+    "domain": "timeseries",
+    "kind": "method",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_applicable",
+    "summary": "把时间结构转为可解释特征，同时保留采样和验证条件。",
+    "tags": [
+      "timeseries",
+      "时间序列特征与预测验证"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/DynamicsAndNeuralSystems/catch22",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://nilearn.github.io/stable/",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "timeseries-features.md"
+  },
+  {
+    "id": "network-nulls",
+    "name": "网络指标与匹配零模型",
+    "domain": "networks",
+    "kind": "method",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_applicable",
+    "summary": "判断网络统计量是否超出明确零假设所能解释的范围。",
+    "tags": [
+      "networks",
+      "网络指标与匹配零模型"
+    ],
+    "sources": [
+      {
+        "url": "https://sites.google.com/site/bctnet/network-models",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://sites.google.com/site/bctnet/network-measures",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "network-nulls.md"
+  },
+  {
+    "id": "dynamics-ode",
+    "name": "动力系统与观测模型",
+    "domain": "dynamics",
+    "kind": "method",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_applicable",
+    "summary": "让潜在状态、模型参数和实际测量之间的关系可检验。",
+    "tags": [
+      "dynamics",
+      "动力系统与观测模型"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://github.com/the-virtual-brain/tvb-root",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "dynamics-ode.md"
+  },
+  {
+    "id": "identifiability",
+    "name": "参数恢复与实际可辨识性",
+    "domain": "identifiability",
+    "kind": "method",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_applicable",
+    "summary": "区分拟合良好、参数可恢复与机制可区分。",
+    "tags": [
+      "identifiability",
+      "参数恢复与实际可辨识性"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1093/bioinformatics/btp358",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19505944/",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "identifiability.md"
+  },
+  {
+    "id": "provenance",
+    "name": "可复现运行与研究记录",
+    "domain": "reproducibility",
+    "kind": "method",
+    "implementation": "implemented",
+    "validation": "replay_verified",
+    "upstream_status": "not_applicable",
+    "summary": "保留足以重放和解释一次分析的输入、配置、版本与证据。",
+    "tags": [
+      "reproducibility",
+      "可复现运行与研究记录"
+    ],
+    "sources": [
+      {
+        "url": "https://git-scm.com/docs",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      },
+      {
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.load.html",
+        "checked_on": "2026-09-08",
+        "level": "primary_source"
+      }
+    ],
+    "card": "provenance.md"
+  },
+  {
+    "id": "lfpy",
+    "name": "LFPy 细胞外电位正向建模",
+    "domain": "electrophysiology",
+    "kind": "tool",
+    "implementation": "reference_only",
+    "validation": "source_reviewed_not_run",
+    "upstream_status": "not_assessed",
+    "summary": "NEURON 多室模型、跨膜电流与 LFP/EEG/MEG 观测模型；本库当前覆盖被动单细胞示例。",
+    "tags": [
+      "LFPy",
+      "NEURON",
+      "LFP",
+      "EEG",
+      "MEG",
+      "电生理",
+      "观测模型"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/LFPy/LFPy",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      },
+      {
+        "url": "https://pypi.org/project/LFPy/",
+        "checked_on": "2026-09-08",
+        "level": "official_registry"
+      }
+    ],
+    "card": "lfpy.md"
+  },
+  {
+    "id": "lfpy-passive-demo",
+    "name": "LFPy 被动细胞最小正向模型",
+    "domain": "electrophysiology",
+    "kind": "method",
+    "implementation": "implemented",
+    "validation": "backend_pending",
+    "upstream_status": "not_assessed",
+    "summary": "可选后端示例：形态、突触、电极、单位、电导率缩放检查及重放；Linux 验证待完成。",
+    "tags": [
+      "LFPy",
+      "NEURON",
+      "LFP",
+      "EEG",
+      "MEG",
+      "电生理",
+      "观测模型"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/LFPy/LFPy",
+        "checked_on": "2026-09-08",
+        "level": "official_repository"
+      },
+      {
+        "url": "https://pypi.org/project/LFPy/",
+        "checked_on": "2026-09-08",
+        "level": "official_registry"
+      }
+    ],
+    "card": "lfpy-passive-demo.md"
+  }
+]
