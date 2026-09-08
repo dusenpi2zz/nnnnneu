@@ -1,0 +1,6 @@
+# Direct dependencies for the initial Windows/Python 3.12 validation.
+# This is a constraints file, not a complete cross-platform lockfile.
+numpy==1.26.4
+matplotlib==3.8.4
+pytest==7.4.4
+setuptools==69.5.1
