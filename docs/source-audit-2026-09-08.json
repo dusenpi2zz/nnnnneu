@@ -1,0 +1,298 @@
+{
+  "checked_at": "2026-09-08T08:13:50.841973+00:00",
+  "boundary": "Public metadata only. Last push does not establish support, quality or compatibility.",
+  "repositories": [
+    {
+      "full_name": "DynamicsAndNeuralSystems/catch22",
+      "html_url": "https://github.com/DynamicsAndNeuralSystems/catch22",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "main",
+      "pushed_at": "2026-09-07T23:15:43Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "DynamicsAndNeuralSystems/catch22",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "JinghaoLu/CellReg",
+      "html_url": "https://github.com/JinghaoLu/CellReg",
+      "archived": false,
+      "disabled": false,
+      "fork": true,
+      "default_branch": "master",
+      "pushed_at": "2019-11-24T20:20:19Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "JinghaoLu/CellReg",
+      "parent": "zivlab/CellReg",
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "JinghaoLu/MIN1PIPE",
+      "html_url": "https://github.com/JinghaoLu/MIN1PIPE",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2024-06-18T11:57:19Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "JinghaoLu/MIN1PIPE",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "MouseLand/suite2p",
+      "html_url": "https://github.com/MouseLand/suite2p",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "main",
+      "pushed_at": "2026-09-07T23:25:34Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "MouseLand/suite2p",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "SharpWave/TENASPIS",
+      "html_url": "https://github.com/SharpWave/TENASPIS",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2021-02-15T00:30:10Z",
+      "license": null,
+      "repository_requested": "SharpWave/TENASPIS",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "etterguillaume/MiniscopeAnalysis",
+      "html_url": "https://github.com/etterguillaume/MiniscopeAnalysis",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2022-12-06T19:35:05Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "etterguillaume/MiniscopeAnalysis",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "flatironinstitute/CaImAn",
+      "html_url": "https://github.com/flatironinstitute/CaImAn",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "main",
+      "pushed_at": "2026-08-02T21:54:19Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "flatironinstitute/CaImAn",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "flatironinstitute/CaImAn-MATLAB",
+      "html_url": "https://github.com/flatironinstitute/CaImAn-MATLAB",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2023-07-04T01:09:30Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "flatironinstitute/CaImAn-MATLAB",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "flatironinstitute/NoRMCorre",
+      "html_url": "https://github.com/flatironinstitute/NoRMCorre",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2022-05-29T15:19:21Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "flatironinstitute/NoRMCorre",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "losonczylab/sima",
+      "html_url": "https://github.com/losonczylab/sima",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2019-03-14T13:52:45Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "losonczylab/sima",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "mukamel-lab/CellSort",
+      "html_url": "https://github.com/mukamel-lab/CellSort",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2018-08-18T05:11:24Z",
+      "license": null,
+      "repository_requested": "mukamel-lab/CellSort",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "porteralab/EZcalcium",
+      "html_url": "https://github.com/porteralab/EZcalcium",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2022-12-05T17:00:51Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "porteralab/EZcalcium",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "samuroi/SamuROI",
+      "html_url": "https://github.com/samuroi/SamuROI",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "develop",
+      "pushed_at": "2019-04-09T13:35:18Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "repository_requested": "samuroi/SamuROI",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "the-virtual-brain/tvb-root",
+      "html_url": "https://github.com/the-virtual-brain/tvb-root",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2026-09-04T11:18:43Z",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "repository_requested": "the-virtual-brain/tvb-root",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "zhoupc/CNMF_E",
+      "html_url": "https://github.com/zhoupc/CNMF_E",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2024-08-02T09:57:59Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "repository_requested": "zhoupc/CNMF_E",
+      "parent": null,
+      "status": "metadata_retrieved"
+    },
+    {
+      "full_name": "zivlab/CellReg",
+      "html_url": "https://github.com/zivlab/CellReg",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "default_branch": "master",
+      "pushed_at": "2026-07-02T19:40:59Z",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "repository_requested": "zivlab/CellReg",
+      "parent": null,
+      "status": "metadata_retrieved"
+    }
+  ]
+}
