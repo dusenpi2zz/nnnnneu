@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "workflow": "suite2p-dff",
+  "data_kind": "local",
+  "inputs": {
+    "F": "../data/suite2p/plane0/F.npy",
+    "Fneu": "../data/suite2p/plane0/Fneu.npy",
+    "iscell": "../data/suite2p/plane0/iscell.npy"
+  },
+  "sampling_rate_hz": 10.0,
+  "parameters": {"neuropil_coefficient": 0.7, "cells_only": true, "percentile": 20},
+  "upstream": {"suite2p_version": "unknown"}
+}

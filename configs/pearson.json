@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "workflow": "pearson",
+  "data_kind": "local",
+  "inputs": {"traces": "../data/traces.npy"},
+  "sampling_rate_hz": 10.0,
+  "parameters": {}
+}

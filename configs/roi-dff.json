@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "workflow": "roi-dff",
+  "data_kind": "local",
+  "inputs": {"movie": "../data/movie.npy", "masks": "../data/masks.npy"},
+  "sampling_rate_hz": 10.0,
+  "parameters": {"motion_corrected": false, "percentile": 20, "min_baseline": 0.000001, "chunk_frames": 128}
+}
