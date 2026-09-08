@@ -604,9 +604,9 @@
     "domain": "electrophysiology",
     "kind": "method",
     "implementation": "implemented",
-    "validation": "backend_pending",
+    "validation": "synthetic_verified",
     "upstream_status": "not_assessed",
-    "summary": "可选后端示例：形态、突触、电极、单位、电导率缩放检查及重放；Linux 验证待完成。",
+    "summary": "可选后端示例：形态、突触、电极、单位、电导率缩放检查及重放；Linux 合成验证通过，真实数据待验收。",
     "tags": [
       "LFPy",
       "NEURON",
